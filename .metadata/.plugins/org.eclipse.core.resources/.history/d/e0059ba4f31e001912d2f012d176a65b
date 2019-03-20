@@ -1,0 +1,87 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// création de la ville de paris
+		Ville paris = new Ville();
+		// ajout des caracteriqtiques
+		paris.nom = "Paris";
+		paris.nombreHabitants = 11000000;
+		paris.pays = "France";
+		paris.sup = 123456789;
+		
+		Ville marseille = new Ville();
+		marseille.nom = "Marseille";
+		marseille.nombreHabitants = 3000000;
+		marseille.pays = "France";
+		marseille.sup = 326598;
+		
+		Ville barcelone = new Ville();
+		barcelone.nom = "Barcelone";
+		barcelone.nombreHabitants = 45789632;
+		barcelone.pays = "Espagne";
+		barcelone.sup = 4578963;
+		
+		
+		System.out.println(
+				"La ville " 
+				+ paris.nom 
+				+ " se trouve en " 
+				+ paris.pays
+			);
+		
+		System.out.println(
+				"La ville " 
+				+ barcelone.nom 
+				+ " se trouve en " 
+				+ barcelone.pays
+			);
+		
+		System.out.println(
+				"La ville " 
+				+ marseille.nom 
+				+ " se trouve en " 
+				+ marseille.pays
+			);
+		
+		barcelone.pays = "BARCELONE PAYS";
+		System.out.println(
+				"La ville " 
+				+ barcelone.nom 
+				+ " se trouve en " 
+				+ barcelone.pays
+			);
+		
+		paris.nombreHabitants = 
+				paris.nombreHabitants + 1000;
+		
+		System.out.println(paris.nombreHabitants);
+		
+		
+	
+		
+		Ville nice = new Ville();
+		nice.nom = "Nice";
+		nice.nombreHabitants = 123456;
+		nice.pays = "France";
+		nice.sup = 123321;
+		
+		Ville niceSimple = 
+				new Ville("Nice", 123456, "France", 123321);
+		
+		Ville london = 
+				new Ville("London", 15000000, "GB", 66666660);
+		
+		
+		
+		niceSimple.nombreHabitants = 123;
+				
+		System.out.println(niceSimple.nom);
+		System.out.println(london.nom);
+			
+	}
+
+}
+
+

@@ -1,0 +1,9 @@
+package fr.akharroub.personnage;
+
+public class Guerrier extends Personnage{
+
+	  @Override
+	  public void attaques() {
+	  	  System.out.println("boooom");
+	    }
+}

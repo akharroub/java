@@ -1,0 +1,28 @@
+package fr.akharroub.personnage;
+
+public abstract class Personnage {
+	protected int nombreDeVie;
+	protected int puissance;
+	protected String nom;
+	protected String arme;
+	protected String type;
+
+	public void attaques() {
+		System.out.println("");
+	}
+
+	public void manger() {
+		System.out.println("je mange");
+	}
+
+	public void sauter() {
+		System.out.println("je saute");
+	}
+	public void seCacher() {
+		System.out.println("je me cache");
+	}
+	public void chngerArme(String nouvelleArme) {
+		System.out.println("mon arme");
+	}
+
+}

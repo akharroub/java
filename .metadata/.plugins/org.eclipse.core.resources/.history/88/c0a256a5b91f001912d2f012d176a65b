@@ -1,0 +1,28 @@
+package fr.akharrorb.zoo.animalsautent;
+
+import fr.akharroub.zoo.animal.Animal;
+
+public class Lapin extends Animal {
+
+	/**
+	 * 
+	 */
+	public Lapin() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param nom
+	 * @param race
+	 * @param couleur
+	 * @param age
+	 * @param poids
+	 * @param griffe
+	 */
+	public Lapin(String nom, String race, String couleur, int age, int poids, boolean griffe) {
+		super(nom, race, couleur, age, poids, griffe);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,123 @@
+package fr.akharroub.personnage;
+
+public abstract class Personnage {
+	protected int nombreDeVie;
+	protected int puissance;
+	protected String nom;
+	protected String arme;
+	protected String type;
+
+	public abstract void attaques();
+
+	public void manger() {
+		System.out.println("je mange");
+	}
+
+	public void sauter() {
+		System.out.println("je saute");
+	}
+
+	public void seCacher() {
+		System.out.println("je me cache");
+	}
+
+	public void chngerArme(String nouvelleArme) {
+		System.out.println("je change arme");
+		arme = nouvelleArme;
+	}
+
+	/**
+	 * @param nombreDeVie
+	 * @param puissance
+	 * @param nom
+	 * @param arme
+	 * @param type
+	 */
+	public Personnage(int nombreDeVie, int puissance, String nom, String arme, String type) {
+		super();
+		this.nombreDeVie = nombreDeVie;
+		this.puissance = puissance;
+		this.nom = nom;
+		this.arme = arme;
+		this.type = type;
+	}
+
+	/**
+	 * 
+	 */
+	public Personnage() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @return the nombreDeVie
+	 */
+	public int getNombreDeVie() {
+		return nombreDeVie;
+	}
+
+	/**
+	 * @param nombreDeVie the nombreDeVie to set
+	 */
+	public void setNombreDeVie(int nombreDeVie) {
+		this.nombreDeVie = nombreDeVie;
+	}
+
+	/**
+	 * @return the puissance
+	 */
+	public int getPuissance() {
+		return puissance;
+	}
+
+	/**
+	 * @param puissance the puissance to set
+	 */
+	public void setPuissance(int puissance) {
+		this.puissance = puissance;
+	}
+
+	/**
+	 * @return the nom
+	 */
+	public String getNom() {
+		return nom;
+	}
+
+	/**
+	 * @param nom the nom to set
+	 */
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	/**
+	 * @return the arme
+	 */
+	public String getArme() {
+		return arme;
+	}
+
+	/**
+	 * @param arme the arme to set
+	 */
+	public void setArme(String arme) {
+		this.arme = arme;
+	}
+
+	/**
+	 * @return the type
+	 */
+	public String getType() {
+		return type;
+	}
+
+	/**
+	 * @param type the type to set
+	 */
+	public void setType(String type) {
+		this.type = type;
+	}
+
+}

@@ -1,0 +1,59 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Chat garfield = 
+				new Chat("Garfield", "Chat de gouttière", "Orange",5, 15);
+		Chat felix = 
+				new Chat("Félix", "Abyssin", "Noire", 3, 5);
+		Chat tom = 
+				new Chat("Tom", "Bengal", "Gris", 4, 9);
+		Chat oggy = 
+				new Chat("Oggy", "Birman", "Bleu", 8, 11);
+		
+		System.out.println(
+				"le chat: " 
+				+ garfield.getNom() 
+				+ " a " 
+				+ garfield.getAge() 
+				+ " ans.");
+		
+		garfield.setAge(6);
+		System.out.println(
+				"le chat: " 
+				+ garfield.getNom() 
+				+ " a " 
+				+ garfield.getAge() 
+				+ " ans.");
+		
+		if(garfield.getAge() > felix.getAge()) {
+			System.out.println("Le chat Garfield est plus agé que Félix");
+		}
+		
+		System.out.println("Age de Garfield : " + garfield.getAge());
+		System.out.println("Age de Félix: " + felix.getAge());
+		
+		String raceFelix = felix.getRace();
+		String tomRace = tom.getRace();
+		
+		if(raceFelix.equals(tomRace)) {
+			System.out.println("Tom et Félix sont de la même race");
+		}else {
+			System.out.println("Tom et Félix ne sont pas de la même race!");
+		}
+		 int garfieldpoids = garfield.getPoids();
+		 int oggypoids = oggy.getPoids();
+		 
+		 if(garfieldpoids < oggypoids) {
+			 System.out.println("oggy est obèse");
+		 }else{
+			 System.out.println("garfield est obèse");
+		 }
+		 
+	
+				
+
+	}
+
+}

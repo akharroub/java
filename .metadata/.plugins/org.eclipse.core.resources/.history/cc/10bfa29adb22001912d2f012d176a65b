@@ -1,0 +1,9 @@
+package fr.akharroub.personnage;
+
+public class Mage extends Personnage {
+	
+  @Override
+public void attaques() {
+	  System.out.println("abra kadabra");
+  }
+}

@@ -1,0 +1,13 @@
+package fr.akharroub.personnage;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Mage charchabil = new Mage(1, 30, "cha", "br6", "a13");
+		charchabil.attaques();
+		charchabil.getArme();
+
+	}
+
+}

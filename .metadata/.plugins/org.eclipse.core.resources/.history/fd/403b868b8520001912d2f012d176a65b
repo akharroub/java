@@ -1,0 +1,24 @@
+package fr.akharroub.calculatrise;
+
+public class Calculatrice {
+	public double addition(double nb1, double nb2) {
+		return nb1 + nb2;
+	}
+
+	public double soustraction(double nb1, double nb2) {
+		return nb1 - nb2;
+	}
+
+	public double multiplication(double nb1, double nb2) {
+		return nb1 * nb2;
+	}
+
+	public double divition(double nb1, double nb2) {
+		return nb1 / nb2;
+	}
+
+	public double modulo(double nb1, double nb2) {
+		return nb1 % nb2;
+	}
+
+}

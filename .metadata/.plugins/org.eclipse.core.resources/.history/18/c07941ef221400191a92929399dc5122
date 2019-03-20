@@ -1,0 +1,30 @@
+package premier_project;
+
+import java.util.Scanner;
+
+public class ExoSommeNombrePairs {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("donne nombre1 : ");
+		int nombre1 = sc.nextInt();
+		System.out.println("donne nombre2 : ");
+		int nombre2 = sc.nextInt();
+
+		int total = 0;
+		int total = modulo(total);
+		System.out.println(total);
+	}
+
+	public static int modulo(int nombre1, int nombre2, int total) {
+		for (int i = nombre1; i <= nombre2; i++) {
+
+			if (i % 2 == 0) {
+				total = total + i;
+			}
+		}
+		return total;
+	}
+
+}

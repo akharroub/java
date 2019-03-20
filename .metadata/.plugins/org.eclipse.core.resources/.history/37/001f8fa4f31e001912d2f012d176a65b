@@ -1,0 +1,33 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Ville paris = new Ville();
+		paris.nom = "paris";
+		paris.nombreHabitants = 11000000;
+		paris.pays = "france";
+		paris.sup = 123456789;
+
+		Ville marseille = new Ville();
+		marseille.nom = "marseille";
+		marseille.nombreHabitants = 11000000;
+		marseille.pays = "france";
+		marseille.sup = 123456789;
+
+		Ville barcelona = new Ville();
+		barcelona.nom = "barcelona";
+		barcelona.nombreHabitants = 11000000;
+		barcelona.pays = "espange";
+		barcelona.sup = 123456789;
+
+		Ville rio = new Ville();
+		rio.nom = "rio";
+		rio.nombreHabitants = 11000000;
+		rio.pays = "brasil";
+		rio.sup = 123456789;
+
+		System.out.println("la ville " + paris.nom + " se trouve en " + paris.pays);
+
+		Ville nice = new Ville();
+	}
+}

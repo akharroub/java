@@ -1,0 +1,44 @@
+public class Voiture {
+	public String nom;
+	public int nombreDePortes;
+	public int nombreDePlaces;
+	public String moteur;
+	public String couleur;
+	
+	// Constructeur sans params
+	public Voiture() {
+		super();
+	}
+
+	// Constructeur avec Params
+	public Voiture(String nom, int nombreDePortes, int nombreDePlaces, String moteur, String couleur) {
+		super();
+		this.nom = nom;
+		this.nombreDePortes = nombreDePortes;
+		this.nombreDePlaces = nombreDePlaces;
+		this.moteur = moteur;
+		this.couleur = couleur;
+	}
+	
+	public void avancer() {
+		System.out.println("Vrooooommmm");
+	}
+	
+	public void freiner() {
+		System.out.println("Stop!");
+	}
+	public void marcheAr() {
+		System.out.println("Marche arrière");
+	}
+	
+	public void tourner() {
+		System.out.println("Je tourne");
+	}
+	
+	public void changerCouleur(String nouvelleCouleur) {
+		couleur = nouvelleCouleur;
+	}
+	
+	
+	
+}

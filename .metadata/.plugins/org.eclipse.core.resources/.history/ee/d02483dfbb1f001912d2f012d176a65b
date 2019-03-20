@@ -1,0 +1,35 @@
+package fr.akharroub.zoo;
+
+import fr.akharrorb.zoo.animalsautent.Chat;
+import fr.akharrorb.zoo.animalsautent.Chian;
+import fr.akharrorb.zoo.animalsautent.Elephant;
+import fr.akharrorb.zoo.animalsautent.cheval;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Chian rex = new Chian("Rex", "Berger", "Jaune", 15, 12, true);
+
+		System.out.println(rex.getRace());
+
+		Chat tom = new Chat("Tom", "Birman", 8, 6, "Rouge", true);
+		System.out.println(tom.getNom());
+
+		cheval ch = new cheval("Cheval", "Cheval de course", 100, 20, "Gris", false);
+
+		System.out.println(ch.getNom());
+
+		ch.manger();
+
+		ch.sauter();
+
+		Elephant petitElephant = new Elephant("Eleph", "Race des elephants", 1000, 120, "Gris", false);
+		System.out.println("Animal: " + petitElephant.getNom());
+		petitElephant.courir();
+		System.out.println("TOM:");
+		tom.sauter();
+
+	}
+
+}

@@ -1,0 +1,6 @@
+package fr.akharroub.personnage;
+
+public class Trolle extends personnage{
+	
+
+}

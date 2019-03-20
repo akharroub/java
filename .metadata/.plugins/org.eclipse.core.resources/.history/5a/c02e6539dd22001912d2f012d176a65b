@@ -1,0 +1,8 @@
+package fr.akharroub.personnage;
+
+public class Trolle extends Personnage {
+	@Override
+	public void attaques() {
+		System.out.println("binge");
+	}
+}

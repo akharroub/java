@@ -1,0 +1,8 @@
+
+public class Ville {
+	public String nom;
+	public int nombreHabitants;
+	public String pays;
+	public int sup;
+
+}

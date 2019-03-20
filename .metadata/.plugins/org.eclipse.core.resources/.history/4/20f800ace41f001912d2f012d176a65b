@@ -1,0 +1,145 @@
+package fr.mohamed.animal.volent;
+
+public class Oiseau {
+	protected String nom;
+	protected String couleur;
+	protected String regime;
+	protected double taille;
+	protected double poids;
+	protected boolean plumes;
+	
+	public void manger() {
+		System.out.println("Miam miam");
+	}
+	
+	public void boire() {
+		System.out.println("J'ai soif");
+	}
+	
+	public void courir() {
+		System.out.println("ON fait la course?");
+	}
+	
+	public void jouer() {
+		System.out.println("j'aime bien les jeux");
+	}
+	
+	public void dormir() {
+		System.out.println("zzzzzzzzzzzzzz");
+	}
+	
+	public void voler() {
+		System.out.println("Je peux voler!!");
+	}
+
+	/**
+	 * 
+	 */
+	public Oiseau() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param nom
+	 * @param couleur
+	 * @param regime
+	 * @param taille
+	 * @param poids
+	 * @param plumes
+	 */
+	public Oiseau(String nom, String couleur, String regime, double taille, double poids, boolean plumes) {
+		super();
+		this.nom = nom;
+		this.couleur = couleur;
+		this.regime = regime;
+		this.taille = taille;
+		this.poids = poids;
+		this.plumes = plumes;
+	}
+
+	/**
+	 * @return the nom
+	 */
+	public String getNom() {
+		return nom;
+	}
+
+	/**
+	 * @param nom the nom to set
+	 */
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	/**
+	 * @return the couleur
+	 */
+	public String getCouleur() {
+		return couleur;
+	}
+
+	/**
+	 * @param couleur the couleur to set
+	 */
+	public void setCouleur(String couleur) {
+		this.couleur = couleur;
+	}
+
+	/**
+	 * @return the regime
+	 */
+	public String getRegime() {
+		return regime;
+	}
+
+	/**
+	 * @param regime the regime to set
+	 */
+	public void setRegime(String regime) {
+		this.regime = regime;
+	}
+
+	/**
+	 * @return the taille
+	 */
+	public double getTaille() {
+		return taille;
+	}
+
+	/**
+	 * @param taille the taille to set
+	 */
+	public void setTaille(double taille) {
+		this.taille = taille;
+	}
+
+	/**
+	 * @return the poids
+	 */
+	public double getPoids() {
+		return poids;
+	}
+
+	/**
+	 * @param poids the poids to set
+	 */
+	public void setPoids(double poids) {
+		this.poids = poids;
+	}
+
+	/**
+	 * @return the plumes
+	 */
+	public boolean isPlumes() {
+		return plumes;
+	}
+
+	/**
+	 * @param plumes the plumes to set
+	 */
+	public void setPlumes(boolean plumes) {
+		this.plumes = plumes;
+	}
+	
+}

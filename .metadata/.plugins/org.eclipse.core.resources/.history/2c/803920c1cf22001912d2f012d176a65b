@@ -1,0 +1,5 @@
+package fr.akharroub.abstractclass;
+
+public abstract class Mere {
+
+}
